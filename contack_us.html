@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>contact us</title>
+
+    </head>
+    <body style="background-color: skyblue ;">
+
+        <h1>Contact Us</h1>
+    
+        <form action="savedata.php">
+
+            <table>
+                <tr>
+                    <td><label for="nama lengkap">Nama Lengkap:</label></td>
+                    <td><input type="text" id="nama lengkap" name="nama lengkap" size="30"><br></td>
+                </tr>
+
+                <tr>
+                    <td> <label for="email">Email:</label></td>
+                    <td> <input type="text" id="email" name="email" size="30"><br></td>
+                </tr>
+
+                <tr>
+                    <td><label for="nama pengguna">Nama pengguna:</label></td>
+                    <td><input type="text" id="nama pengguna" name="nama pengguna" size="30"><br></td>
+                </tr>
+
+                <tr>
+                    <td> <label for="password">Password:</label></td>
+                    <td> <input  type="password" id="password" name="password" size="30"><br></td>
+                </tr>
+            </table>
+               
+        <label>Jenis Kelamin :</label>
+        <input type="radio" id="laki laki" name="jenis Kelamin" value="jenis kelamin">
+        <label for="laki laki">Laki laki</label>
+        <label for=""></label>
+        <input type ="radio" id="perempuan" name="jenis kelamin" value="jenis kelamin">
+        <label for="perempuan">Perempuan</label>
+        <label for=""></label>
+
+        <br>
+        <br>
+
+            <label>Agama</label>
+        <select>
+            <option value="Kristen">Kristen</option>
+            <option value="Islam">Islam</option>
+            <option value="Hindu">Hindu</option>
+            </select>
+            
+            <p>Alamat:</p>
+
+            <textarea name="comment" rows="5" cols="30"></textarea>
+            <br><br>
+
+            <p>Hobi : </p>
+        <input type="checkbox" name="hobbies" id="membaca" value="membaca" checked>
+        <label for="membaca">Membaca</label> <br>
+        <input type="checkbox" name="hobbies" id="sepakbola" value="sepakbola">
+        <label for="sepakbola">Sepakbola</label> <br>
+        <input type="checkbox" name="hobbies" id="memancing" value="memancing">
+        <label for="memancing">Memancing</label><br>
+        <input type="checkbox" name="hobbies" id="bernyanyi" value="bernyanyi">
+        <label >Bernyanyi</label><br><br>
+
+            <input type="submit" value="Save">
+            
+ 
+
+
+    </body>
+    </html>
