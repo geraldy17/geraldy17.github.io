@@ -1,0 +1,371 @@
+.Paset{
+    font-size: xx-small;
+    text-align: center;
+    background-color: lightgray;
+}
+
+.png{
+    margin: 50px auto;
+    width: 60%;
+    padding: 8px;
+}
+
+img{
+    float: left;
+    width: 160px;
+    height: 160px;
+    padding: 0 10px 0 0;
+}
+.kata{
+   text-align: justify;
+   font-family: verdana;
+   font-size: 11px;
+} 
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+nav{
+    background: gainsboro;
+    height: 80px;
+    width: 100%;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    padding: 7px 40px;
+    border-radius: 3px;
+}
+nav ul li a{
+    color: black;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+a.active, a:hover{
+    background: lightgreen;
+    transition: .5s;
+}
+
+nav ul li .tap{
+    display: none;
+}
+
+nav ul li:hover .tap{
+    display: block;
+    background: whitesmoke;
+    position: absolute;
+    padding: 10px;
+}
+
+nav ul li:hover .tap li{
+    display: block;
+}
+
+nav ul li:hover .tap li a{
+    padding:10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+nav ul li:hover .tap li a:hover{
+    background: lightgreen;
+    box-shadow: inset;
+}
+
+
+nav ul li .sap{
+    display: none;
+}
+
+nav ul li:hover .sap{
+    display: block;
+    background: whitesmoke;
+    position: absolute;
+    padding: 10px;
+}
+
+nav ul li:hover .sap li{
+    display: block;
+}
+
+nav ul li:hover .sap li a{
+    padding:10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+nav ul li:hover .sap li a:hover{
+    background: lightgreen;
+    box-shadow: inset;
+}
+
+.praktek{
+    margin: 20px;
+    border: 1px solid ;
+    width: 900px;
+    position: absolute;
+    left: 200px;
+}
+
+.baris{
+    margin: 20px;
+    border: 1px solid ;
+    width: 900px;
+    position: absolute;
+    right: 300px;
+}
+
+.sambutan{
+    font-family:  sans-serif;
+    float: left;
+    padding:50px 40px 30px 49px;
+    margin: 10px;
+    width: 300px;
+    height: 500px;
+    font-size: 11px;
+    margin-left: 800px;
+}
+
+.judul{
+    position: absolute;
+    top: 500px;
+    left: 600px;
+}
+
+.kalimat{
+    width: 400px;
+    position: absolute;
+    top: 550px;
+    right: 500px;
+    left: 800px;
+    font-size: 20px;
+}
+
+.kepsek{
+    width: 400px;
+    height: 440px;
+    position: absolute;
+    left: 400px;
+    top: 550px;
+
+}
+
+.hubungi{
+    position: absolute;
+    top: 600px;
+    left: 1500px;
+    background-color: lightgray ;
+    padding: 50px;
+}
+
+.informasi{
+    position: absolute;
+    top: 950px;
+    left: 1500px ;
+    background-color: lightgray;
+    padding: 60px;
+}
+
+.banner{
+    position: absolute;
+    top: 1400px;
+    left: 1500px ;
+    background-color: lightgrey;
+    padding: 60px;
+}
+
+.der{
+   width: 400px;
+   height: 200px;
+}
+
+.ner{
+    width: 400px;
+    height: 500px;
+}
+
+.mer{
+    width: 400px;
+    height: 300px;
+}
+
+.baca{
+    position: absolute;
+    top: 1200px;
+    left: 100px;
+    background-color: lightgray;
+    padding: 250px;
+}
+
+.pus{
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top: 50px;
+    left: 40px;
+
+}
+
+.r{
+    position: absolute;
+    top: 360px;
+    left: 50px;
+}
+
+.s{
+    position: absolute;
+    top: 480px;
+    left: 50px;  
+}
+
+.mars{
+    background-color: lightgray;
+    padding: 250px;
+    position: absolute;
+    top: 1200px;
+    left: 700px;
+}
+
+.galaksi{
+    position: absolute;
+    top: 50px;
+    left:50px;
+    width: 400px;
+    height: 300px;
+}
+
+.a{
+    position: absolute;
+    top: 370px;
+    left: 50px;
+}
+
+.x{
+    position: absolute;
+    top: 470px;
+    left: 50px;
+}
+
+.watch{
+    background-color: lightgray;
+    padding: 250px;
+    position: absolute;
+    top: 1900px;
+    left: 100px;
+}
+
+.jam{
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top: 40px;
+    right: 50px;
+}
+
+.j{
+    position: absolute;
+    top: 370px;
+    left: 50px;
+}
+
+.m{
+    position: absolute;
+    top: 470px;
+    left: 50px;
+}
+
+.dokter{
+    background-color: lightgray;
+    padding: 250px;
+    position: absolute;
+    top: 1900px;
+    left: 700px;
+}
+
+.doc{
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    left: 60px;
+    top: 40px;
+}
+
+.ok{
+    position: absolute;
+    top: 360px;
+    left: 60px;
+}
+
+.ter{
+   position: absolute;
+   top: 470px;
+   left: 60px;
+}
+
+.four{
+    position: absolute;
+    top: 2600px;
+    right: 1300px;
+}
+
+.siswa{
+    width: 300px;
+    height: 200px;
+}
+
+.lab{
+    width: 300px;
+    height: 200px;
+}
+
+.kom{
+    width: 300px;
+    height: 200px;
+}
+
+.five{
+    position: absolute;
+    top: 2900px;
+    right: 1300px;
+}
+
+.lap{
+    width: 300px;
+    height: 200px;
+}
+
+.kan{
+    width: 300px;
+    height: 200px;
+}
+
+.kel{
+    width: 300px;
+    height: 200px;
+}
+
+.ri{
+    background-color: black;
+    padding: 20px;
+    color: white;
+    position: relative;
+    top: 3500px;
+    text-align: center;
+    font-size: small;
+}
